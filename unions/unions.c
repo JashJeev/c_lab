@@ -18,4 +18,5 @@ void main()
 	if (reg.bytes.byte1 == 0xAA)
 		printf("Register enabled\n");
 	printf("byte2 = 0x%x\n", reg.bytes.byte2);
+	printf("%u %u\n", &reg.bytes.byte1, &reg.bytes.byte4);
 }

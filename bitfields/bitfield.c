@@ -4,7 +4,7 @@ struct test
 { 
 unsigned int x; 
 //long unsigned int y; 
-//long unsigned int y:1; 
+long unsigned int y:1; 
 //long unsigned int y:33; 
 unsigned int z; 
 } t; 
